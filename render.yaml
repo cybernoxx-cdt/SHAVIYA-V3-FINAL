@@ -1,0 +1,48 @@
+services:
+  - type: web
+    name: SHAVIYA-XMD-V3
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+    envVars:
+      - key: SESSION_ID
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: PREFIX
+        value: "."
+      - key: MODE
+        value: "public"
+      - key: OWNER_NUMBER
+        sync: false
+      - key: NODE_ENV
+        value: "production"
+      - key: PORT
+        value: "8000"
+      - key: BOT_VERSION
+        value: "V3"
+      - key: ALIVE_IMG
+        value: "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg"
+      - key: MENU_IMG
+        value: "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg"
+      - key: PACKNAME
+        value: "SHAVIYA-XMD V3"
+      - key: AUTHOR
+        value: "SHAVIYA TECH"
+      - key: AUTO_VOICE
+        value: "true"
+      - key: AUTO_READ_STATUS
+        value: "true"
+      - key: ANTILINK
+        value: "true"
+      - key: ALWAYS_TYPING
+        value: "true"
+      - key: ALWAYS_RECORDING
+        value: "true"
+      - key: ANTI_BOT
+        value: "true"
+      - key: ANTI_DELETE
+        value: "true"
+      - key: AUTO_READ_CMD
+        value: "true"

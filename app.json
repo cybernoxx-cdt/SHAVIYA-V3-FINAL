@@ -1,0 +1,134 @@
+{
+  "name": "SHAVIYA-XMD-V3",
+  "description": "SHAVIYA-XMD V3 \u2014 Premium WhatsApp Bot by SHAVIYA TECH",
+  "logo": "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg",
+  "keywords": [
+    "SHAVIYA-XMD-V3",
+    "WhatsApp-Bot",
+    "SHAVIYA-TECH"
+  ],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your session ID \u2014 base64 encoded creds.json OR a MEGA link.",
+      "required": true,
+      "value": ""
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB connection string (optional).",
+      "required": false,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Bot command prefix.",
+      "required": false,
+      "value": "."
+    },
+    "MODE": {
+      "description": "Bot mode: public / private / inbox / groups / premium",
+      "required": false,
+      "value": "public"
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number without + (e.g. 94712345678)",
+      "required": true,
+      "value": "94707085822"
+    },
+    "BOT_VERSION": {
+      "description": "Bot version label",
+      "required": false,
+      "value": "V3"
+    },
+    "AUTO_VOICE": {
+      "description": "Auto voice feature: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_AI": {
+      "description": "Auto AI reply: true/false",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Auto read status: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "ANTILINK": {
+      "description": "Anti link: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Always online: true/false",
+      "required": false,
+      "value": "false"
+    },
+    "ALWAYS_TYPING": {
+      "description": "Always typing: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "ALWAYS_RECORDING": {
+      "description": "Always recording: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_BOT": {
+      "description": "Anti bot: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_DELETE": {
+      "description": "Anti delete: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_BAD_WORDS_ENABLED": {
+      "description": "Anti bad words: true/false",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_READ_CMD": {
+      "description": "Auto read commands: true/false",
+      "required": false,
+      "value": "true"
+    },
+    "PACKNAME": {
+      "description": "Sticker pack name",
+      "required": false,
+      "value": "SHAVIYA-XMD V3"
+    },
+    "AUTHOR": {
+      "description": "Sticker author name",
+      "required": false,
+      "value": "SHAVIYA TECH"
+    },
+    "ALIVE_IMG": {
+      "description": "Alive command image URL",
+      "required": false,
+      "value": "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg"
+    },
+    "MENU_IMG": {
+      "description": "Menu image URL",
+      "required": false,
+      "value": "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg"
+    },
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API Key (optional - for GPT commands)",
+      "required": false,
+      "value": ""
+    },
+    "GEMINI_API_KEY": {
+      "description": "Google Gemini API Key (optional - for AI commands)",
+      "required": false,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
