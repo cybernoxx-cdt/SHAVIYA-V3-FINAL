@@ -41,8 +41,8 @@ module.exports = {
 
   // ===================== START/ALIVE/MENU =====================
   START_MSG: process.env.START_MSG,
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/s1pn69.jpg",
   ALIVE_MSG: process.env.ALIVE_MSG || "Hello 👋 I am SHAVIYA-XMD V3 💎",
-  MENU_IMG:  process.env.MENU_IMG  || "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg",
+  MENU_IMG:  process.env.MENU_IMG  || "https://files.catbox.moe/eqmiio.jpg",
   MENU_MSG:  process.env.MENU_MSG  || "Main Menu",
 };
