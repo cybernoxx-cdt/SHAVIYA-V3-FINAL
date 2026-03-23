@@ -49,7 +49,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg' },
+            image: { url: 'https://files.catbox.moe/eqmiio.jpg' },
             caption: `╭━━〔 *SHAVIYA-XMD V3* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
