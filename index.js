@@ -72,7 +72,7 @@ const chama = {
   message: {
     contactMessage: {
       displayName: botName,
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${botName};;;;\nFN:${botName}\nORG:Meta Platforms\nTEL;type=CELL;type=VOICE;waid=13135550002:+1 313 555 0002\nEND:VCARD`,
+      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${botName};;;;\nFN:${botName}\nORG:Meta Platforms\nTEL;type=CELL;type=VOICE;waid=94707085822:+94707085822\nEND:VCARD`,
     },
   },
 };
@@ -160,7 +160,7 @@ async function loadSession() {
   // ── Option 2: Base64-encoded creds.json ──
   try {
     let raw = sessionId.trim();
-    for (const prefix of ["SHAVIYA-XMD_","SHAVIYA_","HASIYA_","SESSION_"]) {
+    for (const prefix of ["SHAVIYA-XMD_","ranu&","HASIYA_","shavi&"]) {
       if (raw.startsWith(prefix)) { raw = raw.slice(prefix.length); break; }
     }
     const decoded = Buffer.from(raw, "base64").toString("utf8");
