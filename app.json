@@ -18,7 +18,7 @@
     "MONGODB_URI": {
       "description": "MongoDB connection string (optional).",
       "required": false,
-      "value": ""
+      "value": "mongodb://mongo:YNwqZHPXUsSGDneORqdeCjrWTDOaeBDQ@centerbeam.proxy.rlwy.net:36322"
     },
     "PREFIX": {
       "description": "Bot command prefix.",
@@ -108,12 +108,12 @@
     "ALIVE_IMG": {
       "description": "Alive command image URL",
       "required": false,
-      "value": "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg"
+      "value": "https://files.catbox.moe/s1pn69.jpg"
     },
     "MENU_IMG": {
       "description": "Menu image URL",
       "required": false,
-      "value": "https://i.ibb.co/C5PdQgTz/imgbb-1774247334984.jpg"
+      "value": "https://files.catbox.moe/eqmiio.jpg"
     },
     "OPENAI_API_KEY": {
       "description": "OpenAI API Key (optional - for GPT commands)",
